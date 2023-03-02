@@ -1,0 +1,776 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+
+body {
+  background-color: #ffffff;
+  cursor: url(../IMG/normal.gif), auto;
+
+  height: auto;
+  width: 100%;
+  margin: auto; 
+  max-width: 100%;
+  background-image: url(../IMG/Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ body { background-image: url(../IMG/Background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.myfooter {
+  margin-top: 18%;
+  position: inherit;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background-color: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body { background-image: url(../IMG/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+  .myfooter {
+    margin-top: 23%;
+    position: inherit;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+  }
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body { background-image: url(../IMG/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .myfooter {
+    margin-top: 28%;
+    position: inherit;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+  }
+  
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body { background-image: url(../IMG/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .myfooter {
+    margin-top: 33%;
+    position: inherit;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+  }
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body { background-image: url(../IMG/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .myfooter {
+    margin-top: 38%;
+    position: inherit;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+  }
+  
+}
+
+
+::-webkit-scrollbar-track {
+  border: 5px solid white;
+
+  border-color: transparent;
+  background-color: #b2bec3;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #74b9ff;
+  border-radius: 10px;
+}
+
+a,
+button, .GButton {
+  cursor: url(../IMG/select.gif), auto;
+}
+input,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul li{
+  cursor: url(../IMG/text_select.gif), auto;
+}
+.trending__product {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h4,
+.section-title h5 {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+
+.section-title h4:after,
+.section-title h5:after {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  background: #e53637;
+  content: "";
+}
+
+.btn__all {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.primary-btn {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.primary-btn span {
+  font-size: 18px;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.product__item {
+  margin-bottom: 30px;
+}
+
+.product__item__pic {
+  height: 300px;
+  position: relative;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0px 5px 10px 0px rgba(255, 0, 0);
+}
+.product__item:hover .product__item__pic {
+  height: 300px;
+  position: relative;
+  border-radius: 5px;
+  width: 200px;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px 2px rgba(0255, 0, 0);
+}
+
+.product__item__pic .ep {
+  font-size: 13px;
+  color: #ffffff;
+  background: #e53637;
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 4px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.product__item__text {
+  padding-top: 20px;
+}
+
+.product__item__text h5 button {
+  font-weight: 700;
+  line-height: 26px;
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  /* cursor:pointer; */
+}
+.product__item__text h5 a {
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  /* cursor:pointer; */
+}
+
+.product__item:hover .product__item__text {
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  transform: translateY(-5px);
+}
+
+.myfooter {
+  margin-top: 28vh;
+  position: inherit;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background-color: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Slab",
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+  background: white;
+  color: #e74c3c;
+}
+@media screen and (max-width: 780px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 250px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+  }
+}
+@media screen and (max-width: 545px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 100px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+  }
+}
+@media screen and (max-width: 392px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 50px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+  }
+}
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.header__right {
+  position: absolute;
+  right: 120px;
+  top: -42px;
+  padding: 0;
+}
+
+.header__menu {
+  text-align: center;
+}
+
+.header__menu ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 16px;
+}
+
+.header__menu ul li.active a {
+  background: #e53637;
+  color: #ffffff;
+}
+
+.header__menu ul li:hover a {
+  color: #ffffff;
+}
+
+.header__menu ul li a {
+  font-size: 15px;
+  color: #b7b7b7;
+  display: block;
+  font-weight: 700;
+  -webkit-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+  padding: 20px;
+}
+
+.header__menu ul li a span {
+  position: relative;
+  font-size: 17px;
+  top: 2px;
+}
+
+.searchPage {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headingMainPage {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.jss12 {
+  display: flex;
+  padding: 10px 10px;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.anime-details {
+  padding-top: 70px;
+}
+
+.anime__details__content {
+  margin-bottom: 65px;
+}
+
+.anime__details__text {
+  color: #fff;
+  position: relative;
+}
+
+.anime__details__text p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.anime__details__pic {
+  background-repeat: no-repeat;
+  height: 440px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.anime__details__title {
+  margin-bottom: 20px;
+}
+
+.anime__details__title h3 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.anime__details__title span {
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+}
+
+.anime__details__widget {
+  margin-bottom: 15px;
+}
+
+.anime__details__widget ul {
+  margin-bottom: 20px;
+}
+
+.anime__details__widget ul li {
+  list-style: none;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 30px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.anime__details__widget ul li:before {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  content: "";
+}
+
+.anime__details__widget ul li span {
+  color: #ffffff;
+  width: 115px;
+  display: inline-block;
+}
+
+.anime__details__btn .watch-btn span {
+  font-size: 13px;
+  color: #000000;
+  background: #e53637;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  border-radius: 4px 0 0 4px;
+  margin-right: 1px;
+}
+
+.anime__details__btn .watch-btn i {
+  font-size: 20px;
+  display: inline-block;
+  background: #e53637;
+  padding: 11px 5px 16px 8px;
+  color: #000000;
+  border-radius: 0 4px 4px 0;
+}
+
+.anime__details__episodes {
+  margin-bottom: 35px;
+}
+
+.anime__details__episodes button {
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  background: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  cursor: url(../IMG/select.gif);
+}
+
+.anime__details__episodes button:hover {
+  color: #ff0000;
+  background: #000000;
+}
+
+.GButton {
+  cursor: url(../IMG/select.gif);
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.GButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.GButton:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.GButton:active {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 0px, 0);
+}
+
+.HButton-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  /* cursor: pointer; */
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.HButton-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.HButton-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 8%,
+    rgb(0, 0, 0) 92%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.HButton-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: rgb(255, 0, 0);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+@media (min-width: 768px) {
+  .HButton-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.HButton-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.HButton-pushable:hover .HButton-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.HButton-pushable:active .HButton-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.HButton-pushable:hover .HButton-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.HButton-pushable:active .HButton-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.HButton-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 71%;
+  border: 3px solid #000000;
+  border-right: none;
+  padding: 5px;
+  height: 46px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  padding-bottom: 8px;
+}
+
+.searchTerm:focus {
+  color: #000000;
+}
+
+.searchButton {
+  padding-top: 6px;
+  width: 40px;
+  height: 46px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: url(../IMG/select.gif), auto;
+}
+
+.searchButton:hover {
+  padding-top: 6px;
+  width: 40px;
+  height: 46px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: url(../IMG/select.gif), auto;
+}
